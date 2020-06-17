@@ -11,4 +11,4 @@ Mechanics used in this project :
 	- Camera follow player    
 	- Respawn  
 	- Enemy spawner  
-	 -Kill count  
+        - Kill count  
