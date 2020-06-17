@@ -21,9 +21,9 @@ public class EnemyCtrl : MonoBehaviour
     }
     void Update()
     {
-        Vector3 v3MeTowardsTarget = transTowards.position -
+        Vector3 moveTowardsTarget = transTowards.position -
             transform.position;
-        rigid.velocity += v3MeTowardsTarget.normalized *
+        rigid.velocity += moveTowardsTarget.normalized *
             fSpeed * Time.deltaTime;
     }
 }

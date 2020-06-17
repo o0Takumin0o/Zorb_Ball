@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class SpawnColision : MonoBehaviour
+public class SpawnCollision : MonoBehaviour
 {
     
 
@@ -20,9 +20,15 @@ public class SpawnColision : MonoBehaviour
         if (collision.collider.tag == "Enemy")
         {
             if (bSpawnSelf)
+            {
                 Instantiate(goSpawn, transform.position, Quaternion.identity);
+            }
+
             if (bSpawnOther)
+            {
                 Instantiate(goSpawn, collision.transform.position, Quaternion.identity);
+            }
+
         }
     }
 }
