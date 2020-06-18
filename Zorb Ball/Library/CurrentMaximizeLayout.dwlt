@@ -25,7 +25,7 @@ MonoBehaviour:
   m_MinSize: {x: 711, y: 555}
   m_MaxSize: {x: 18008, y: 18066}
   vertical: 0
-  controlID: 184
+  controlID: 387
 --- !u!114 &2
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -131,7 +131,7 @@ MonoBehaviour:
   m_MinSize: {x: 200, y: 322}
   m_MaxSize: {x: 4002, y: 8022}
   vertical: 1
-  controlID: 60
+  controlID: 502
 --- !u!114 &4
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -197,9 +197,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: 0, y: 14.69, z: -4.88}
+    m_Target: {x: -3.0031545, y: 2.0572305, z: 0}
     speed: 2
-    m_Value: {x: 0, y: 14.69, z: -4.88}
+    m_Value: {x: -3.0031545, y: 2.0572305, z: 0}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -232,9 +232,9 @@ MonoBehaviour:
     speed: 2
     m_Value: {x: 0.42873606, y: -0.5502318, z: 0.39443898, w: 0.59820426}
   m_Size:
-    m_Target: 11.800631
+    m_Target: 1.537064
     speed: 2
-    m_Value: 11.800631
+    m_Value: 1.537064
   m_Ortho:
     m_Target: 0
     speed: 2
@@ -487,8 +487,8 @@ MonoBehaviour:
     y: 330
     width: 433
     height: 601
-  m_MinSize: {x: 200, y: 200}
-  m_MaxSize: {x: 4000, y: 4000}
+  m_MinSize: {x: 202, y: 222}
+  m_MaxSize: {x: 4002, y: 4022}
   m_ActualView: {fileID: 2}
   m_Panes:
   - {fileID: 2}
@@ -523,7 +523,7 @@ MonoBehaviour:
   m_ViewDataDictionary: {fileID: 0}
   m_LockTracker:
     m_IsLocked: 0
-  m_LastSelectedObjectID: 14470
+  m_LastSelectedObjectID: 14464
 --- !u!114 &11
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -549,7 +549,7 @@ MonoBehaviour:
   m_MinSize: {x: 234, y: 555}
   m_MaxSize: {x: 10004, y: 18066}
   vertical: 1
-  controlID: 141
+  controlID: 388
 --- !u!114 &12
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -607,7 +607,7 @@ MonoBehaviour:
       scrollPos: {x: 0, y: 0}
       m_SelectedIDs: 
       m_LastClickedID: 0
-      m_ExpandedIDs: 74fbffff
+      m_ExpandedIDs: 4cfbffff74fbffff
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -747,19 +747,19 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/Scripts/Camera
+    - Assets/Scripts/Emeny
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets/Scripts/Camera
+  - Assets/Scripts/Emeny
   m_LastFoldersGridSize: -1
   m_LastProjectPath: C:\Users\Admin\Desktop\Unity\Zorb_Ball\Zorb Ball
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: 32320000
-    m_LastClickedID: 12850
+    m_SelectedIDs: 08310000
+    m_LastClickedID: 12552
     m_ExpandedIDs: 00000000a2300000d8320000ca33000078350000b2350000e639000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
@@ -788,7 +788,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 00000000a2300000d8320000ca33000078350000b2350000e6390000
+    m_ExpandedIDs: 00000000a2300000d8320000ca33000078350000b2350000e639000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -813,8 +813,8 @@ MonoBehaviour:
       m_Icon: {fileID: 0}
       m_ResourceFile: 
   m_ListAreaState:
-    m_SelectedInstanceIDs: 6e380000
-    m_LastClickedInstanceID: 14446
+    m_SelectedInstanceIDs: 80380000
+    m_LastClickedInstanceID: 14464
     m_HadKeyboardFocusLastEvent: 1
     m_ExpandedInstanceIDs: 205b0200d23900000c410000dc92f8ff00000000e6370000fe33000056360000
     m_RenameOverlay:
@@ -840,7 +840,7 @@ MonoBehaviour:
       m_Icon: {fileID: 0}
       m_ResourceFile: 
     m_NewAssetIndexInList: -1
-    m_ScrollPosition: {x: 0, y: 0}
+    m_ScrollPosition: {x: 0, y: 189}
     m_GridSize: 64
   m_SkipHiddenPackages: 0
   m_DirectoriesAreaWidth: 112
@@ -907,8 +907,8 @@ MonoBehaviour:
     m_ControlHash: -371814159
     m_PrefName: Preview_InspectorPreview
   m_PreviewWindow: {fileID: 0}
-  m_LastInspectedObjectInstanceID: 14446
-  m_LastVerticalScrollValue: 0
+  m_LastInspectedObjectInstanceID: 14464
+  m_LastVerticalScrollValue: 100
 --- !u!114 &20
 MonoBehaviour:
   m_ObjectHideFlags: 52

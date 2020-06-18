@@ -15,15 +15,13 @@ public class SpawnEnemy : MonoBehaviour
 
     float Timer = 0;
 
-    // Start is called before the first frame update
     void Start()
     {
         Timer = fTimeIntervals;
     }
 
-    // Update is called once per frame
     void Update()
-    {
+    { //random spawn point
         Timer -= Time.deltaTime;
         if (Timer <= 0)
         {

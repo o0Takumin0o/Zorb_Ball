@@ -19,7 +19,6 @@ public class CameraCtrl : MonoBehaviour
         _cameraOffset = transform.position - PlayerTransform.position;
     }
 
-    // LateUpdate is called after Update
     void Update()
     {
         Vector3 newPos = PlayerTransform.position + _cameraOffset;

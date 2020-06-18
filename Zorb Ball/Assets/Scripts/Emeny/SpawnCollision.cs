@@ -3,9 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 
 public class SpawnCollision : MonoBehaviour
-{
-    
-
+{ // spawn enemy death effect when enemy hit this object
     [SerializeField]
     bool bSpawnSelf = false;
 

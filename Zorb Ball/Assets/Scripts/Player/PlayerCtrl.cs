@@ -13,15 +13,13 @@ public class PlayerCtrl : MonoBehaviour
     public SlowTime slowTime;
 
     private void Awake()
-    {
-        
+    {  
         Time.timeScale = 1f;
     }
 
     private void Start()
     {
         rigidbody = GetComponent<Rigidbody>();
-
     }
 
     private void FixedUpdate()
@@ -40,8 +38,6 @@ public class PlayerCtrl : MonoBehaviour
             WinScreen.SetActive(true);
             GameplayUI.SetActive(false);
             slowTime.Endlevel = false;
-
-
         }
     }
     

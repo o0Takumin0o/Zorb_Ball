@@ -3,14 +3,12 @@ using System.Collections.Generic;
 using UnityEngine;
 
 public class EnemyDestroy : MonoBehaviour
-{
+{//destroy enemy when hit object whith lava tag
     [SerializeField]
     bool bDestroySelf = false;
 
     [SerializeField]
     bool bDestroyOther = false;
-
-    public ParticleSystem deathParticle;
 
     private void OnCollisionEnter(Collision collision)
     {
@@ -21,10 +19,5 @@ public class EnemyDestroy : MonoBehaviour
             if (bDestroyOther)
                 Destroy(collision.gameObject);
         }
-    }
-    void Destroy()
-    {
-        Instantiate(deathParticle, transform.position,
-            Quaternion.identity);
-    }
+    } 
 }

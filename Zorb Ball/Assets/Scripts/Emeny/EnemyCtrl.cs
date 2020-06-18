@@ -15,12 +15,11 @@ public class EnemyCtrl : MonoBehaviour
         rigid = GetComponent<Rigidbody>();
         if (transTowards == null)
         {
-            transTowards = FindObjectOfType<PlayerCtrl>()
-                .transform;
+            transTowards = FindObjectOfType<PlayerCtrl>().transform;
         }
     }
     void Update()
-    {
+    {// move enemy towards traget (player)
         Vector3 moveTowardsTarget = transTowards.position -
             transform.position;
         rigid.velocity += moveTowardsTarget.normalized *

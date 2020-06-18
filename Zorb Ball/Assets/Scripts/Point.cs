@@ -9,7 +9,7 @@ public class Point : MonoBehaviour
     [SerializeField]
     public int killCount;
     private void OnCollisionEnter(Collision collision)
-    {
+    {//add point when hit enemy 
         if (collision.collider.tag == "Enemy")
         {
             killCount++;
