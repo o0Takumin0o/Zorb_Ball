@@ -32,7 +32,7 @@ public class PlayerCtrl : MonoBehaviour
         rigidbody.AddForce(movement * speed);
     }
     void OnTriggerEnter(Collider hitCollider)
-    {
+    {//enable win screen and disable game UI
         if (hitCollider.tag == "Finish")
         {
             WinScreen.SetActive(true);

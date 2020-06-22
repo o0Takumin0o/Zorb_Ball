@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 
 public class SpawnCollision : MonoBehaviour
-{ // spawn enemy death effect when enemy hit this object
+{
     [SerializeField]
     bool bSpawnSelf = false;
 
@@ -14,7 +14,7 @@ public class SpawnCollision : MonoBehaviour
     GameObject goSpawn;
 
     private void OnCollisionEnter(Collision collision)
-    {
+    {// spawn enemy death effect when "Enemy" hit this object
         if (collision.collider.tag == "Enemy")
         {
             if (bSpawnSelf)

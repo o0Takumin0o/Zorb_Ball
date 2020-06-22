@@ -21,7 +21,7 @@ public class SpawnEnemy : MonoBehaviour
     }
 
     void Update()
-    { //random spawn point
+    { //randomized spawn point
         Timer -= Time.deltaTime;
         if (Timer <= 0)
         {
