@@ -1,5 +1,5 @@
 # Zorb_Ball
-![](Images/Zorb%20ball.png)  
+![](Images/Zorb_ball.png)  
 	Type game : Casual, Indie  
 	Program : Unity  
 	Language : C#  
@@ -11,4 +11,4 @@ Mechanics used in this project :
 	- Camera follow player    
 	- Respawn  
 	- Enemy spawner  
-        - Kill count  
+        - Kill count
