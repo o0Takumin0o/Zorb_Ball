@@ -1,5 +1,5 @@
 # Zorb_Ball
-![](Images/Zorb%20ball.png)  
+![](Images/Zorb_ball.png)  
 	Type game : Casual, Indie  
 	Program : Unity  
 	Language : C#  
